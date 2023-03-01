@@ -1,47 +1,51 @@
 import React from 'react'
-import {FaTwitter , FaHome, FaHashtag,FaRegBell ,FaRegEnvelope, FaClipboardList, FaRegBookmark, FaUserAlt, FaMehBlank} from "react-icons/fa";
-const Sidebar=()=>{
+import {FaTwitter, FaHome, FaHashtag,FaRegEnvelope, FaRegBell,FaClipboardList, FaRegBookmark,FaUserAlt,FaMehBlank} from "react-icons/fa";
+const SideBar=()=>{
     return(
         <div>
-            <ul>
+            <u>
                 <li>
                     <a href="">
-                        <FaTwitter></FaTwitter>Twitter
+                        <FaTwitter></FaTwitter>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <FaHome></FaHome>Home
+                        <FaHome />Home
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <FaHashtag></FaHashtag>Explore
+                        <FaHashtag /> Explore
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <FaRegBookmark></FaRegBookmark>Bookmarks
+                        <FaRegBell />Notifications
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <FaClipboardList></FaClipboardList>Lists
+                        <FaRegBookmark />Bookmarks
                     </a>
                 </li>
                 <li>
                     <a href="">
-                       <FaUserAlt></FaUserAlt>User
+                        <FaClipboardList />Lists
                     </a>
                 </li>
-                <li>
+                 <li>
                     <a href="">
-                        <FaMehBlank></FaMehBlank>More
+                        <FaUserAlt />User
                     </a>
-                </li>
-            </ul>
+                </li> 
+                 <li>
+                    <a href="">
+                        <FaMehBlank />More
+                    </a>
+                </li> 
+            </u>
         </div>
     )
 }
-
-export default Sidebar
+export default SideBar
